@@ -1,0 +1,17 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 8090
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/payment?serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+
+
