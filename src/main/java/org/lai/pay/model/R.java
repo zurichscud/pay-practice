@@ -1,4 +1,4 @@
-package org.lai.pay.vo;
+package org.lai.pay.model;
 
 import lombok.Data;
 

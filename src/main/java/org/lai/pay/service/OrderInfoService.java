@@ -1,7 +1,8 @@
 package org.lai.pay.service;
 
-import com.atguigu.paymentdemo.entity.OrderInfo;
+
 import com.baomidou.mybatisplus.extension.service.IService;
+import org.lai.pay.model.OrderInfo;
 
 public interface OrderInfoService extends IService<OrderInfo> {
 

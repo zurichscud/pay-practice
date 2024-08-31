@@ -1,7 +1,8 @@
 package org.lai.pay.mapper;
 
-import com.atguigu.paymentdemo.entity.RefundInfo;
+
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.lai.pay.model.RefundInfo;
 
 public interface RefundInfoMapper extends BaseMapper<RefundInfo> {
 

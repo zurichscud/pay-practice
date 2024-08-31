@@ -1,9 +1,10 @@
 package org.lai.pay.service.impl;
 
-import com.atguigu.paymentdemo.entity.Product;
-import com.atguigu.paymentdemo.mapper.ProductMapper;
-import com.atguigu.paymentdemo.service.ProductService;
+
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.lai.pay.mapper.ProductMapper;
+import org.lai.pay.model.Product;
+import org.lai.pay.service.ProductService;
 import org.springframework.stereotype.Service;
 
 @Service

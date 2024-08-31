@@ -1,9 +1,10 @@
 package org.lai.pay.service.impl;
 
-import com.atguigu.paymentdemo.entity.RefundInfo;
-import com.atguigu.paymentdemo.mapper.RefundInfoMapper;
-import com.atguigu.paymentdemo.service.RefundInfoService;
+
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.lai.pay.mapper.RefundInfoMapper;
+import org.lai.pay.model.RefundInfo;
+import org.lai.pay.service.RefundInfoService;
 import org.springframework.stereotype.Service;
 
 @Service
