@@ -62,7 +62,7 @@ public class WxPayConfig {
     @Bean
     public ScheduledUpdateCertificatesVerifier getVerifier() {
 
-        log.info("获取签名验证器");
+//        log.info("获取签名验证器");
 
         //获取商户私钥
         PrivateKey privateKey = getPrivateKey(privateKeyPath);
